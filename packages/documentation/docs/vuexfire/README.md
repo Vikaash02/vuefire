@@ -191,7 +191,7 @@ const db = firebase
   .initializeApp({ databaseURL: 'https://MY-DATABASE.firebaseio.com' })
   .database()
 
-new Vue.Store({
+new Vuex.Store({
   // setup the reactive todos property
   state: {
     todos: [],
